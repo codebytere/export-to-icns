@@ -1,0 +1,15 @@
+{
+  "name" : "export-to-icns",
+  "identifier" : "com.sketchapp.plugin.export-to-icns",
+  "version" : "1.0",
+  "description" : "A Sketch plugin to automatically export artboards into `.icns` files in a location of your choosing.",
+  "authorEmail" : "shelley.vohr@gmail.com",
+  "author" : "Shelley Vohr",
+  "commands" : [{
+    "script" : "export.js",
+    "handler" : "exportToIcns",
+    "shortcut" : "",
+    "name" : "Export To .icns",
+    "identifier" : "ExportToIcns"
+  }]
+}
